@@ -38,6 +38,7 @@ int Train::getLength() {
                 countOp++;
             }
             if (tmp->light == false) {
+                countOp++
                 return count;
             }
             else {
