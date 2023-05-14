@@ -43,8 +43,7 @@ int Train::getLength() {
                 return count;
             }
             else {
-                count = 1;
-                countOp++;
+                count = 1;;
             }
         }
     }
